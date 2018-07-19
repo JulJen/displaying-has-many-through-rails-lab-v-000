@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h2>Patient Directory</h2>
 
 <ul>
@@ -8,4 +9,10 @@
       <br><br>
     </li>
   <% end %>
+=======
+<ul>
+<% @patients.each do |patient| %>
+  <li><%= link_to patient.name, patient %></li>
+<% end %>
+>>>>>>> 91899b41162344e2b926e45087799c3e2e0c15fd
 </ul>
